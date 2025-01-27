@@ -19,3 +19,19 @@ a {
 
 
 /* Ulf codes */
+
+.smlinks {
+    display: flex;
+    margin: 0.5rem;
+    gap: 0.5rem;
+}
+
+.smlinks img {
+    border-radius: 50%;
+    max-width: 25px;
+}
+
+.hiker_image img {
+    width: 100%;
+    max-width: 200px;
+}

@@ -100,7 +100,8 @@ main{
 }
 
 .call-to-action {
-    margin-top: 2rem;    
+    margin-top: 2rem;  
+    display: flex;
 }
 
 .cta-btn {
@@ -115,6 +116,28 @@ main{
     margin-right: 36px;
     border-radius: 6px;
     box-shadow: 1px 5px 8px, rgba(0, 0, 0, 0.25) ;
+}
+
+
+@media (max-width: 680px) {
+
+    .container_main h1 {
+        font-size: 32px;
+    }
+
+    .container_main h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .cta-btn {
+        padding: 8px 32px;
+        font-size: 14px;
+    }
+
+    .container_main {
+        justify-content: center;
+    }
 }
 
 /* Ulf codes */

@@ -49,6 +49,49 @@ header,.header_nav{
 
 /* Jacques codes */
 
+.container_main {
+    display: flex;
+    flex-direction:column;
+}
+
+.container_main h1 {
+    font-family: "Special Elite", serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #4b6666;
+    padding-top: 3rem;
+}
+
+.container_main h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #4b6666;
+}
+
+.container_main p {
+    color: #4b6666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1.4rem;
+}
+
+.call-to-action {
+    margin-top: 2.8rem;    
+}
+
+.cta-btn {
+    border: 1px solid #4b6666;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4b6666;
+    color: white;
+    padding: 6px 22px;
+    margin-right: 36px;
+    border-radius: 6px;
+    box-shadow: 1px 5px 8px, rgba(0, 0, 0, 0.25) ;
+}
 
 /* Ulf codes */
 

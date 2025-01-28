@@ -102,7 +102,6 @@ main{
 .call-to-action {
     margin-top: 2rem;  
     display: flex;
-  
 }
 
 .cta-btn {
@@ -133,14 +132,12 @@ main{
 
     .cta-btn {
         padding: 8px 32px;
-
+        font-size: 14px;
     }
 
     .container_main {
         justify-content: center;
     }
-
-    
 }
 
 /* Ulf codes */

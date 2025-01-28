@@ -159,5 +159,15 @@ footer .smlinks img {
     max-height: 100%;
 }
 
+.container_gallery {
+    display: grid;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
 
-
+.gallery_image {
+    width: 100%;
+    height: auto;
+}

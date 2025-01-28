@@ -190,8 +190,3 @@ footer .smlinks img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
-
-.gallery_image {
-    width: 100%;
-    height: auto;
-}

@@ -1,0 +1,28 @@
+html, body,.container-gallery{
+    height: auto;
+}
+
+.container-gallerypage{
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 4fr 1fr;
+}
+
+.container_gallery {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, minmax(150px,1fr));
+    grid-template-rows: repeat(3, minmax(150px,1fr));
+}
+
+figcaption{
+    font-family: "Special Elite", serif;
+    text-transform: uppercase;
+    color: #394e4e;
+    padding-top: 5px;
+}
+
+.gallery_image img{
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 15px;
+}

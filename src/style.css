@@ -213,7 +213,13 @@ footer .smlinks img {
     }
 
     .header_nav ul{
-        margin-left: 0px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 15px;
+        font-weight: bold;
+        font-size: 0.9rem;
     }
 
     .container_logo {

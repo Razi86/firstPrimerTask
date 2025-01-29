@@ -123,26 +123,8 @@ main{
 }
 
 
-@media (max-width: 680px) {
 
-    .container_main h1 {
-        font-size: 32px;
-    }
 
-    .container_main h2 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-
-    .cta-btn {
-        padding: 8px 32px;
-        font-size: 14px;
-    }
-
-    .container_main {
-        justify-content: center;
-    }
-}
 
 /* Ulf codes */
 
@@ -196,6 +178,24 @@ footer .smlinks img {
 }
 
 @media only screen and (max-width: 480px) {
+
+    .container_main h1 {
+        font-size: 32px;
+    }
+
+    .container_main h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .cta-btn {
+        padding: 8px 32px;
+        font-size: 14px;
+    }
+
+    .container_main {
+        justify-content: center;
+    }
 
     .container_landing_page {
         background: rgba(255, 255, 255,0.5) ;
@@ -299,7 +299,7 @@ footer .smlinks img {
     footer .smlinks {
         display: flex;
         margin: 0.5rem;
-        gap: 1.5rem;
+        gap: 1rem;
         flex-direction: column;
     }
 

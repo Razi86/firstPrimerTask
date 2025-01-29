@@ -1,4 +1,3 @@
-/* Razieh codes */
 *{
     padding: 0;
     margin: 0;
@@ -75,7 +74,6 @@ main{
     grid-row: 1/7;
 }
 
-/* Jacques codes */
 
 .container_main {
     display: flex;
@@ -121,30 +119,6 @@ main{
     border-radius: 6px;
     box-shadow: 1px 5px 8px, rgba(0, 0, 0, 0.25) ;
 }
-
-
-@media (max-width: 680px) {
-
-    .container_main h1 {
-        font-size: 32px;
-    }
-
-    .container_main h2 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-
-    .cta-btn {
-        padding: 8px 32px;
-        font-size: 14px;
-    }
-
-    .container_main {
-        justify-content: center;
-    }
-}
-
-/* Ulf codes */
 
 footer {
     display: flex;
@@ -199,6 +173,24 @@ footer .smlinks img {
 
     body,html{
         height: auto;
+    }
+
+    .container_main h1 {
+        font-size: 32px;
+    }
+
+    .container_main h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .cta-btn {
+        padding: 8px 32px;
+        font-size: 14px;
+    }
+
+    .container_main {
+        justify-content: center;
     }
 
     .container_landing_page {

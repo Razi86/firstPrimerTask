@@ -1,10 +1,14 @@
-.container-gallerypage{
-    grid-template-columns: 1fr;
-    grid-template-rows: 60px 4fr 1fr;
+body,html{
+    height: auto;
 }
 
 main{
     padding: 0;
+}
+
+.container-gallerypage{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 3fr auto;
 }
 
 .container-gallerypage main{

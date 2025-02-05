@@ -1,0 +1,51 @@
+body,html{
+    height: auto;
+}
+
+main{
+    padding: 0;
+}
+
+.container-gallerypage{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 3fr auto;
+}
+
+.container-gallerypage main{
+    grid-row: 2/6;
+}
+
+.container_gallery {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, minmax(150px,1fr));
+    grid-template-rows: repeat(3, minmax(150px,1fr));
+}
+
+figcaption{
+    font-family: "Special Elite", serif;
+    text-transform: uppercase;
+    color: #394e4e;
+    padding-top: 5px;
+}
+
+.gallery_image img{
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:768px){
+    .container_main h1 {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .container_gallery {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+    }
+
+    figcaption{
+        font-size: .8rem;
+    }
+}
